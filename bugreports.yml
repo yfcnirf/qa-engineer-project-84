@@ -1,0 +1,79 @@
+---
+- summary: |
+    Верстка ломается в мобильной версии сайта
+  environment: |
+    Pavilion HP Gaming 15-dkxxx
+    Google Chrome Версия 133.0.6943.127
+    Galaxy Z Fold 5
+  steps-to-reproduce: |
+   - Открыть сайт https://hexlet-products-store.vercel.app/ 
+   - Обратить внимание на внешний вид сайта
+  expected-result: |
+    Внешний вид сайта не должен менятся
+  actual-result: |
+    Текст выступает за поля. Кнопка "Добавить в корзину" съехала
+    https://docs.google.com/document/d/1mVE69VRloeC6qqob83lM24wUPa_inFZ_/edit?usp=sharing&ouid=105030593885167267906&rtpof=true&sd=true
+
+
+- summary: |
+    Язык описания товара остался английским
+  environment: |
+    Google Chrome Версия 133.0.6943.127
+    Pavilion HP Gaming 15-dkxxx
+  steps-to-reproduce: |
+   - Открыть сайт https://hexlet-products-store.vercel.app/
+   - Нажать на кнопку "Language" в верхнем правом углу 
+   - Выбрать русский язык
+   - Обратить внимание на описание товара
+  expected-result: |
+    Язык описания должен стать русским
+  actual-result: |
+    Язык описания товара остался английским
+    https://docs.google.com/document/d/1mVE69VRloeC6qqob83lM24wUPa_inFZ_/edit?usp=sharing&ouid=105030593885167267906&rtpof=true&sd=true
+
+- summary: |
+    Язык категорий товара остался английским
+  environment: |
+    Google Chrome Версия 133.0.6943.127
+    Pavilion HP Gaming 15-dkxxx
+  steps-to-reproduce: |
+   - Открыть сайт https://hexlet-products-store.vercel.app/
+   - Нажать на кнопку "Language" в верхнем правом углу 
+   - Выбрать русский язык
+   - Обратить внимание на кнопку "Категория" в левом верхнем углу
+   - Обратить внимание на выпадающие строки
+  expected-result: |
+    Язык категорий должен изменится на русский
+  actual-result: |
+    Язык категорий остался английским
+    https://docs.google.com/document/d/1mVE69VRloeC6qqob83lM24wUPa_inFZ_/edit?usp=sharing&ouid=105030593885167267906&rtpof=true&sd=true
+    
+- summary: |
+    Нет выбора способа оплаты
+  environment: |
+    Google Chrome Версия 133.0.6943.127
+    Pavilion HP Gaming 15-dkxxx
+  steps-to-reproduce: |
+   - Открыть сайт https://hexlet-products-store.vercel.app/
+   - Нажать на кнопку "Корзина" в верхнем правом углу
+   - Нажать на зеленую кнопку "Оформить заказ"
+  expected-result: |
+    Можно выбрать способ оплаты 
+  actual-result: |
+    Нет выбора способа оплаты
+   
+
+- summary: |
+    Количество товара в корзине отображается не в один столбец
+  environment: |
+    Google Chrome Версия 133.0.6943.127
+    Pavilion HP Gaming 15-dkxxx
+  steps-to-reproduce: |
+   - Открыть сайт https://hexlet-products-store.vercel.app/
+   - Нажать на кнопку "Корзина" в верхнем правом углу
+   - Обратить внимание на расположение цифр количества товара
+  expected-result: |
+    Цифры расположены в один столбец 
+  actual-result: |
+    Количество товара в корзине отображается не в один столбец
+    https://docs.google.com/document/d/1mVE69VRloeC6qqob83lM24wUPa_inFZ_/edit?usp=sharing&ouid=105030593885167267906&rtpof=true&sd=true
