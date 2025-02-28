@@ -1,0 +1,43 @@
+- summary: |
+    Работа поля ввода "Поиск"
+  status: pass
+
+- summary: |
+    Работа фильтра товаров
+  status: pass
+  
+- summary: |
+    Просмотр описания товара
+  status: pass
+
+- summary: |
+    Влияние на верстку смены языка
+  status: pass
+  
+- summary: |
+    Работа кнопки "Добавить в корзину"
+  status: pass
+
+- summary: |
+    Просмотр корзины
+  status: pass
+
+- summary: |
+    Корзина не должна просматриваться другими пользователями"
+  status: pass
+
+- summary: |
+    Работа мобильной версии сайта
+  status: fail
+
+- summary: |
+    Смена языка пользователя
+  status: fail
+
+- summary: |
+    Выбор способа оплаты
+  status: fail
+
+- summary: |
+    Расположение количества товара в корзине
+  status: fail
