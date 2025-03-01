@@ -6,28 +6,28 @@ report:
     - test-case: "Работа мобильной версии сайта"
       status: "passed"
 
-report:
+
   title: "Регрессионный тест"
   description: "Проверка расположения количества товара в корзине "
   results:
     - test-case: "Расположение количества товара в корзине"
       status: "passed"
 
-report:
+
   title: "Регрессионный тест"
   description: "Проверка смены языка пользователя "
   results:
     - test-case: "Смена языка пользователя"
       status: "failed"
 
-report:
+
   title: "Регрессионный тест"
   description: "Проверка смены языка пользователя "
   results:
     - test-case: "Смена языка пользователя"
       status: "failed"
 
-report:
+
   title: "Регрессионный тест"
   description: "Проверка выбора способа оплаты"
   results:
