@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен иметь возможность найти нужный товар
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
     "Нет данных"
   steps:
@@ -19,7 +19,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
     "Нет данных"
   steps:
@@ -34,7 +34,7 @@
   requirement: |
     Пользователь должен иметь возможность просматривать товары и просматривать подробную информацию о товаре
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
     "Нет данных"
   steps:
@@ -47,7 +47,7 @@
   requirement: |
     При нажатии кнопки "Добавить в корзину" товар добавляется в корзину
   prerequisites:
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
@@ -61,7 +61,7 @@
   requirement: |
     Пользователь имеет возможность просмотреть товары добавленные в корзину
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
@@ -76,7 +76,7 @@
   requirement: |
     Необходимо, чтобы корзину нельзя было посмотреть другим пользователем
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
     "Нет данных"
   steps:
@@ -92,7 +92,7 @@
   requirement: |
     Кпоки, поля и текст сайта при смене языка остаются на прежних местах
   prerequisites: |
-    Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
@@ -107,7 +107,7 @@
   requirement: |
     Мобильная версия сайта должна быть удобной для пользователя
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
@@ -121,7 +121,7 @@
   requirement: |
     Язык должен менятся для всех необходимых параметров сайта. Язык не должен сбрасываться при перезагрузке страницы.
   prerequisites: |
-    Открыта главная страница: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
     "Нет данных"
   steps:
@@ -137,7 +137,7 @@
   requirement: |
     Пользователь может оплатить товар разными способами
   prerequisites: |
-    Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
@@ -153,7 +153,7 @@
   requirement: |
     Количество товара в корзине расположено ровно друг под другом
   prerequisites: |
-    Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
+    "Открыта главная страница: https://hexlet-products-store.vercel.app/"
   test-data: |
    "Нет данных"
   steps:
