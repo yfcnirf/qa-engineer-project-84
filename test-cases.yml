@@ -50,7 +50,7 @@
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
    "Нет данных"
-   steps:
+  steps:
    - Нажать на кнопку товара "Добавить в корзину" 
   expected-result: |
     Товар добавляется в корзину
@@ -63,8 +63,8 @@
   prerequisites: |
     Открыта главная страница: https://hexlet-products-store.vercel.app/
   test-data: |
-   steps:
    "Нет данных"
+  steps:
    - Нажать на кнопку "Корзина" в правом верхнем углу 
   expected-result: |
     Открывается корзина с добавленным товаром 
@@ -95,7 +95,7 @@
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
    "Нет данных"
-   steps:
+  steps:
    - Нажать на кнопку "Language"
    - В выпадающей строке выбрать русский язык
   expected-result: |
@@ -140,7 +140,7 @@
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
    "Нет данных"
-   steps:
+  steps:
    - Нажать на кнопку "Корзина" в левом вверхнем углу
    - Нажать на зеленую кнопку "Оформить заказ"
    - Выбрать способ оплаты
@@ -156,7 +156,7 @@
     Открыта главная страница сайта: https://hexlet-products-store.vercel.app/
   test-data: |
    "Нет данных"
-   steps:
+  steps:
    - Нажать на кнопку "Корзина" в левом вверхнем углу
    - Обратить внимание на строки с количеством товара
   expected-result: |
